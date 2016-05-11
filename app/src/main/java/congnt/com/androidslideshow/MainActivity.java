@@ -8,16 +8,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import com.darsh.multipleimageselect.activities.AlbumSelectActivity;
 import com.darsh.multipleimageselect.helpers.Constants;
 import com.darsh.multipleimageselect.models.Image;
 import com.getbase.floatingactionbutton.FloatingActionButton;
 import com.getbase.floatingactionbutton.FloatingActionsMenu;
-import com.github.hiteshsondhi88.libffmpeg.FFmpeg;
-import com.github.hiteshsondhi88.libffmpeg.LoadBinaryResponseHandler;
-import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegNotSupportedException;
 
 import java.util.ArrayList;
 
@@ -96,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
             ArrayList<Image> images = data.getParcelableArrayListExtra(Constants.INTENT_EXTRA_IMAGES);
             switch (requestCode){
                 case REQUEST_CODE_MULTI:
-                    Intent intent = new Intent(this, SlideMakerActivity.class);
+                    Intent intent = new Intent(this, SlideEditorActivity.class);
                     intent.putExtra("images", images);
                     startActivity(intent);
                     break;

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="congnt.com.androidslideshow.SlideEditorActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_nav"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:id="@+id/btn_save"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@android:drawable/ic_menu_save"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/btn_effect"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@android:drawable/btn_star_big_on"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/btn_music"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@android:drawable/ic_dialog_map"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_above="@id/ll_nav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <VideoView
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/videoView"/>
+        <MediaController
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mediaController"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -6,12 +6,18 @@
     android:orientation="vertical"
     tools:context="congnt.com.androidslideshow.SlideMakerActivity">
     <EditText
+        android:scrollbars="vertical"
         android:id="@+id/et_query"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="350dp" />
     <Button
         android:id="@+id/btn_query"
         android:text="Query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_music"
+        android:text="Music"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <ScrollView
