@@ -78,10 +78,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(intent, REQUEST_CODE_MULTI);
                 break;
             case R.id.fab_add_item:
-                intent = new Intent(this, AlbumSelectActivity.class);
+                intent = new Intent(this, FramagicActivity.class);
 //set limit on number of images that can be selected, default is 10
-                intent.putExtra(Constants.INTENT_EXTRA_LIMIT, 1);
-                startActivityForResult(intent, REQUEST_CODE_SINGLE);
+//                intent.putExtra(Constants.INTENT_EXTRA_LIMIT, 1);
+//                startActivityForResult(intent, REQUEST_CODE_SINGLE);
+                startActivity(intent);
                 break;
         }
     }

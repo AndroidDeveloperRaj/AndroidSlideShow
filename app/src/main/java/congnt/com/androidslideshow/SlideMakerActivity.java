@@ -94,7 +94,7 @@ public class SlideMakerActivity extends AppCompatActivity {
     private void executeFFMPEG(String query) {
         // to execute "ffmpeg -version" command you just need to pass "-version"
         try {
-            ffmpeg.execute(query, new ExecuteBinaryResponseHandler() {
+            ffmpeg.execute(query.split(" "), new ExecuteBinaryResponseHandler() {
                 @Override
                 public void onStart() {
                 }
@@ -250,7 +250,7 @@ public class SlideMakerActivity extends AppCompatActivity {
             case R.id.btn_query:
                 try {
                     // to execute "ffmpeg -version" command you just need to pass "-version"
-                    ffmpeg.execute(etQuery.getText().toString(), new ExecuteBinaryResponseHandler() {
+                    ffmpeg.execute(etQuery.getText().toString().split(""), new ExecuteBinaryResponseHandler() {
 
                         @Override
                         public void onStart() {

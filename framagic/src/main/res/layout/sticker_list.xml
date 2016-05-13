@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#1e1e1e">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji_empty"
+        android:background="#c2c2c2"
+        android:id="@+id/sticker0"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji01"
+        android:id="@+id/sticker1"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji02"
+        android:id="@+id/sticker2"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji03"
+        android:id="@+id/sticker3"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji04"
+        android:id="@+id/sticker4"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji05"
+        android:id="@+id/sticker5"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji06"
+        android:id="@+id/sticker6"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji07"
+        android:id="@+id/sticker7"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji08"
+        android:id="@+id/sticker8"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji09"
+        android:id="@+id/sticker9"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji10"
+        android:id="@+id/sticker10"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji11"
+        android:id="@+id/sticker11"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji12"
+        android:id="@+id/sticker12"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/emoji13"
+        android:id="@+id/sticker13"
+        android:onClick="choseSticker"
+        android:layout_margin="6dp" />
+</LinearLayout>
